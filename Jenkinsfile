@@ -1,4 +1,4 @@
-node {
+node (ecs) {
    def commit_id
    stage('Preparation') {
      checkout scm
